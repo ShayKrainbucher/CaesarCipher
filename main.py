@@ -31,7 +31,7 @@ while True:
         initialMessage = input("What is your message?\n ")
 
         while True:
-            key = input("What is the key? Choose one between 0 and 25 please. \n")
+            key = input("What is the key? Choose one between 0 and 26 please. \n")
 
             if key.isdigit():
                 key = int(key)
